@@ -45,8 +45,6 @@ return array(
     "twilio_api_details_desc"          => "Søk etter 'API Keys' i konsollen. Opprett en API-nøkkel og skriv inn nøkkel og hemmelighet nedenfor.",
     "twilio_api_secret"                => "API-hemmelighet",
     "twilio_number_verification"       => "Nummerverifisering",
-    "twilio_number_verification_desc"  => "Valgfritt - Skriv inn en verifikasjonstjeneste-SID for å aktivere verifisering av brukeres telefonnumre. Dette anbefales for å hindre at en bruker oppgir et hvilket som helst telefonnummer - <a target='_blank' href='https://www.twilio.com/verify'>Verify</a>-tjenesten fra Twilio er betalbar.",
-    "twilio_verify_sid"                => "Verifikasjons-SID",
 
     "twitter_api_key_secret"           => "API-nøkkelhemmelighet",
 
@@ -55,5 +53,27 @@ return array(
      */
     "twitter_documentation"            => "Les vennligst vår dokumentasjon for oppsett av <a href=':link'>X</a>.",
     "twitter_redirect_url"             => "Følgende URL <strong>må</strong> angis for X-appens 'Tilbakekoblings-URL':",
+    
+    /*
+     * 5.4.1
+     */
+    "twilio_verify_sid"                => "",
+    "twilio_number_verification_desc"  => "",
+    "twilio_verify_countries"          => "",
+    "twilio_verify_countries_desc"     => "",
 
+    /*
+     * 5.5.0
+     */
+    "algolia_frontend_search_rate_limit" => "",
+    "algolia_max_daily"                => "",
+    "algolia_max_daily_desc"           => "",
+    "algolia_max_min"                  => "",
+    "algolia_max_min_desc"             => "",
+    
+    /*
+     * 5.7.0
+     */
+    "microsoft_tenant_id"               => "",
+    "microsoft_tenant_id_desc"          => "",
 );

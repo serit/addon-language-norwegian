@@ -33,7 +33,6 @@ return array(
     "excerpt"                   => "Utdrag",
     "associate_tag"             => "Knytt artikkel til en tagg...",
     "associate_category"        => "Knytt artikkel til en kategori...",
-    "published_desc"            => "Bestemmer om artikkelen kan vises offentlig. Hvis den ikke er publisert, kan den likevel vises via den direkte URL-en forutsatt at en av kategoriene er offentlige.",
     "registered_users_desc"     => "Aktiver for kun å vise artikler til brukere som er logget inn.",
 
     "comment_by"                => "Kommentar av",
@@ -158,4 +157,15 @@ return array(
      */
     "in_reply_to"               => "svar til",
 
+     /*
+     * 5.7.0
+     */
+    "comment_notification"      => "",
+    "comment_notification_desc" => "",
+    
+    /*
+     * 5.7.5
+     */
+    "published_desc"            => "",
+    "not_published"             => "",
 );

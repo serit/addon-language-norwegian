@@ -369,7 +369,6 @@ return array(
     "multi_ip"                  => "Multi-IP-støtte",
     "multi_ip_desc"             => "Tillater å låse SupportPal til mer enn én intern eller ekstern IP.",
     "purchase"                  => "Kjøp",
-    "ticket_number_missing"     => "For saksrelaterte e-poster må {{ ticket.number }}-flettefeltene være til stede i e-postemnet og pakket inn i enten <em>[#{{ ticket.number }}]</em> eller <em>(#{{ ticket.number }})</em> for å rute svar til riktig sak. Hvis du vil fjerne saksnummeret, vurder å aktivere <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>e-post underadressering</a>.",
 
     /*
      * 2.5.0
@@ -662,7 +661,6 @@ return array(
     /*
      * 5.3.0
      */
-    "ticket_channel_2"          => "Vi tilbyr et antall standardkanaler. Du kan aktivere og konfigurere Facebook- og Twitter-kanalene for å samle saker generert via sosiale medier.",
     "incoming_duplicate"        => "Innkommende (duplikat)",
 
     /*
@@ -682,4 +680,86 @@ return array(
     "hcaptcha_desc"             => "Registrer deg på <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Kopier site og secret key ovenfor.",
     "captcha_type_desc"         => "Velg den captchaen som skal brukes gjennom systemet. Vi anbefaler å bytte til Google reCAPTCHA, som krever ytterligere konfigurering.",
 
+    /*
+     * 5.5.0
+     */
+    "ticket_channel_2"          => "",
+    "selected_country_aria_label" => "",
+    "no_country_selected"       => "",
+    "country_list_aria_label"   => "",
+    "zero_search_results"       => "",
+    "one_search_result"         => "",
+    "multiple_search_results"   => "", // ${count} is a JS variable and should not be changed.
+    "advanced"                  => "",
+    "table"                     => "",
+    "cell"                      => "",
+    "cell_properties"           => "",
+    "merge_cells"               => "",
+    "split_cell"                => "",
+    "row"                       => "",
+    "inset_row_before"          => "",
+    "inset_row_after"           => "",
+    "delete_row"                => "",
+    "row_properties"            => "",
+    "cut_row"                   => "",
+    "copy_row"                  => "",
+    "paste_row_before"          => "",
+    "paste_row_after"           => "",
+    "column"                    => "",
+    "insert_column_before"      => "",
+    "insert_column_after"       => "",
+    "delete_column"             => "",
+    "cut_column"                => "",
+    "copy_column"               => "",
+    "paste_column_before"       => "",
+    "paste_column_after"        => "",
+    "table_properties"          => "",
+    "delete_table"              => "",
+    "width"                     => "",
+    "height"                    => "",
+    "cell_spacing"              => "",
+    "cell_padding"              => "",
+    "border_width"              => "",
+    "caption"                   => "",
+    "show_caption"              => "",
+    "alignment"                 => "",
+    "border_style"              => "",
+    "border_colour"             => "",
+    "cell_type"                 => "",
+    "scope"                     => "",
+    "horizontal_align"          => "",
+    "vertical_align"            => "",
+    "header_cell"               => "",
+    "row_group"                 => "",
+    "column_group"              => "",
+    "left"                      => "",
+    "center"                    => "",
+    "right"                     => "",
+    "top"                       => "",
+    "middle"                    => "",
+    "bottom"                    => "",
+    "anchor"                    => "",
+    "example"                   => "",
+
+    /*
+     * 5.6.0
+     */
+    "email_template_enabled_desc" => "",
+    "template_disabled"         => "",
+    "reset_email_template"      => "",
+
+    /*
+     * 5.7.0
+     */
+    "cursor_position"           => "",
+    "set_cursor_position"       => "",
+    "private_message_notification" => "",
+    "private_message_notification_desc" => "",
+
+    /*
+     * 5.7.3
+     */
+    "solid"                     => "",
+    "dashed"                    => "",
+    "dotted"                    => "",
 );

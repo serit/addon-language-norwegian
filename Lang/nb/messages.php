@@ -168,4 +168,8 @@ return array(
     "lock_timeout"          => "Låsetidsbegrensning",
     "lock_timeout_desc"     => "Serveren er for øyeblikket opptatt med å behandle andre forespørsler. Vennligst prøv igjen.",
 
+    /*
+     * 5.4.1
+     */
+    "throttle_error"        => "" // :in_time becomes in 1 minute, etc
 );

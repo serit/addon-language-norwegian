@@ -291,11 +291,6 @@ return array(
     "type_in_tags"              => "Skriv inn tagger",
 
     /*
-     * 2.0.1
-     */
-    "allowed_files_desc"        => "Liste med filendelser, separert av | tegnet, som er tillatt som vedlegg. For eksempel: txt|png|jpg. For å tillate alle filtyper, skriv inn: ?.*",
-
-    /*
      * 2.0.2
      */
     "no_operator_groups"        => "Ingen operatørgruppe funnet. Klikk <a href=':route'>her</a> for å opprette en.",
@@ -452,7 +447,7 @@ return array(
     "macro_type"                => "Makrotype",
     "macro_type_desc"           => "Det er tre typer makroer tilgjengelig. Manuelle makroer kan kun kjøres fra saksvisning eller oversikten. Automatiske makroer kjøres på uløste saker hver time, og hook-makroer kjøres på spesifiserte sakshendelser. Automatiske og hook-makroer kan også defineres til kun å kjøre innenfor bestemte tidsplaner. Enhver hook-makrohandling vil ikke utløse andre hook-makroer. Dette gjøres for å unngå løkker.",
     "macro_run_at_most"         => "Kjør maksimalt",
-    "macro_run_times"           => "ganger", // As in '5 ganger'
+    "macro_run_times"           => "ganger", // As in '5 times'
     "macro_run_at_most_desc"    => "Begrens hvor mange ganger en automatisk makro kan kjøres på den samme saken, la stå tomt for å la en makro kjøre et ubegrenset antall ganger.",
     "macro_events_desc"         => "Velg én eller flere hendelser som makroer skal kjøres ved. Betingelsene satt nedenfor vil bli kontrollert før en makro kjøres.",
     "macro_schedules_desc"      => "Makroen vil som standard kjøre 24/7, men du kan velge én eller flere helpdesk-tidsplaner slik at makroen kun er aktiv innenfor disse.",
@@ -538,8 +533,6 @@ return array(
     "append_ip_address_api_desc" => "Legg til brukerens IP-adresse på slutten av saksmeldingene deres (krever at user_ip_address-data leveres).",
     "check_spam"                => "Sjekk spamregler",
     "check_spam_api_desc"       => "Blokker meldinger som samsvarer med spamregler.",
-    "enable_throttling"         => "Aktiver hastighetsbegrensning",
-    "enable_throttling_api_desc" => "Begrens antall meldinger brukere kan legge inn innenfor et tidsrom. Se <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Hastighetsbegrensningskonfigurasjon</a> for mer informasjon om hvordan du justerer grensene.",
     "captcha_desc"              => "Når skal captcha vises for brukere som åpner nye saker",
 
     /*
@@ -573,4 +566,51 @@ return array(
     "reject_duplicate_emails_desc" => "Stopp e-poster fra å bli importert mer enn én gang, oppdaget basert på Message-ID-headeren.",
     "duplicate_email_detected"  => "Duplikat e-post som allerede er importert.",
 
+    /*
+     * 5.5.0
+     */
+    "rate_limiting"             => "",
+    "max_requests"              => "",
+    "max_requests_desc"         => "",
+    "decay_time"                => "",
+    "decay_time_desc"           => "",
+    "exclude_addresses"         => "",
+    "exclude_addresses_desc"    => "",
+    "enable_throttling"         => "",
+    "enable_throttling_api_desc" => "",
+    "close_without_notify"      => "",
+    "lock"                      => "",
+    "pin"                       => "",
+    "unpin"                     => "",
+    
+    /*
+     * 5.6.0
+     */
+    "copy_to_new_filter"        => "",
+    "alias_support"             => "",
+    "alias_support_desc"        => "",
+    
+    /*
+     * 5.7.0
+     */
+    "run_as_operator"           => "",
+    "run_as_operator_desc"      => "",
+    "use_ticket_print_view"     => "",
+    "save_feedback"             => "",
+    "ticket_opened_notification" => "",
+    "ticket_opened_notification_desc" => "",
+    "user_reply_notification"   => "",
+    "user_reply_notification_desc" => "",
+    "operator_reply_notification" => "",
+    "operator_reply_notification_desc" => "",
+    "operator_note_notification" => "",
+    "operator_note_notification_desc" => "",
+    "assigned_notification"     => "",
+    "assigned_notification_desc" => "",
+    "department_changed_notification" => "",
+    "department_changed_notification_desc" => "",
+    "mention_notification"       => "",
+    "mention_notification_desc" => "",
+    "mark_resolved_and_post_reply" => "",
+    "allowed_files_desc"        => "",
 );
