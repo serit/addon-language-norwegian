@@ -168,6 +168,6 @@ return array(
     /*
      * 5.7.0
      */
-    "group_by"                          => "",
+    "group_by"                          => "Grupper etter",
 
 );

@@ -160,12 +160,12 @@ return array(
      /*
      * 5.7.0
      */
-    "comment_notification"      => "",
-    "comment_notification_desc" => "",
-    
+    "comment_notification"      => "Ny kommentar publisert",
+    "comment_notification_desc" => "Varsler deg når en ny kommentar publiseres på en selvbetjeningsartikkel.",
+
     /*
      * 5.7.5
      */
-    "published_desc"            => "",
-    "not_published"             => "",
+    "published_desc"            => "Bestemmer om artikkelen kan vises offentlig. Når den er publisert uten offentlige kategorier, kan den kun vises via direkte URL. Når den ikke er publisert, kan den kun vises av autentiserte operatører på forsiden.",
+    "not_published"             => "Ikke publisert",
 );

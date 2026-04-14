@@ -142,6 +142,6 @@ return array(
     /*
      * 5.7.0
      */
-    "operatornotification" => "",
-    "replytemplate"     => "",
+    "operatornotification" => "Administrer operatørvarsler",
+    "replytemplate"     => "Administrer egne svarmaler",
 );

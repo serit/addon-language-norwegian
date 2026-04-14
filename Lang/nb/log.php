@@ -270,11 +270,11 @@ return array(
     /*
      * 5.5.0
      */
-    "ticket_pinned_message"             => "", // Pinned message (lowercase general.message) on ticket #123.
-    "ticket_unpinned_message"           => "", // Unpinned message (lowercase general.message) on ticket #123.
-    
+    "ticket_pinned_message"             => "Festet :extra_rel1 på sak #:rel.", // Pinned message (lowercase general.message) on ticket #123.
+    "ticket_unpinned_message"           => "Løsnet :extra_rel1 på sak #:rel.", // Unpinned message (lowercase general.message) on ticket #123.
+
     /*
      * 5.7.0
      */
-    "operator_notifications_updated"    => "", // Updated Joe Blog's notification preferences.
+    "operator_notifications_updated"    => "Oppdaterte varslingsinnstillingene til :rel.", // Updated Joe Blog's notification preferences.
 );

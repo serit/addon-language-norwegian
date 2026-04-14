@@ -433,11 +433,11 @@ return array(
     /*
      * 5.5.0
      */
-    "mark_as_done"              => "",
+    "mark_as_done"              => "Merk som ferdig",
     /*
      * 5.7.0
      */
-    "bot"                       => "",
-    "allow_all"                 => "",
+    "bot"                       => "Bot|Boter",
+    "allow_all"                 => "Tillat alle",
 
 );

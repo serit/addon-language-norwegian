@@ -57,23 +57,23 @@ return array(
     /*
      * 5.4.1
      */
-    "twilio_verify_sid"                => "",
-    "twilio_number_verification_desc"  => "",
-    "twilio_verify_countries"          => "",
-    "twilio_verify_countries_desc"     => "",
+    "twilio_verify_sid"                => "Verify SID",
+    "twilio_number_verification_desc"  => "Valgfritt - Skriv inn en verifiseringstjeneste-SID for å aktivere verifisering av brukernes telefonnumre. Dette lar brukere verifisere sine egne telefonnumre - <a target='_blank' href='https://www.twilio.com/verify'>Verify</a>-tjenesten fra Twilio er avgiftsbelagt.",
+    "twilio_verify_countries"          => "Tillatte land for verifisering",
+    "twilio_verify_countries_desc"     => "Begrens telefonnummerverifisering til bestemte land for å redusere kostnader og risiko for misbruk. Telefonnumre som tilhører land utenfor den tillatte listen kan manuelt merkes som verifisert av ansatte.",
 
     /*
      * 5.5.0
      */
-    "algolia_frontend_search_rate_limit" => "",
-    "algolia_max_daily"                => "",
-    "algolia_max_daily_desc"           => "",
-    "algolia_max_min"                  => "",
-    "algolia_max_min_desc"             => "",
-    
+    "algolia_frontend_search_rate_limit" => "Frekvensbegrensning for frontendsøk",
+    "algolia_max_daily"                => "Maks forespørsler per dag",
+    "algolia_max_daily_desc"           => "Maksimalt antall API-kall som kan gjøres til Algolia fra frontenden.",
+    "algolia_max_min"                  => "Maks forespørsler per minutt",
+    "algolia_max_min_desc"             => "Maksimalt antall API-kall som kan gjøres til Algolia fra frontenden, per autentisert bruker / IP-adresse.",
+
     /*
      * 5.7.0
      */
-    "microsoft_tenant_id"               => "",
-    "microsoft_tenant_id_desc"          => "",
+    "microsoft_tenant_id"               => "Tenant-ID",
+    "microsoft_tenant_id_desc"          => "Hvis du må bruke én enkelt tenant for støttede kontotyper, skriv inn tenant-ID-en; ellers lar du dette feltet stå tomt. Tenant-ID-en finner du i Microsoft Entra Identity-oversikten.",
 );

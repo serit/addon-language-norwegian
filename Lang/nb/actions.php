@@ -86,8 +86,8 @@ return array(
     /*
      * 5.5.0
      */
-    "close_ticket"              => "",
-    "lock_ticket"               => "",
-    "notify_user"               => "",
+    "close_ticket"              => "Lukk sak",
+    "lock_ticket"               => "Lås sak",
+    "notify_user"               => "Varsle bruker",
 
 );
